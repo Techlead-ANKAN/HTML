@@ -1,0 +1,292 @@
+<!-- By default "index.html" is identified as the home page of the website -->
+
+<!-- Boiler Plate -->
+
+<!DOCTYPE html>
+<!-- tells a browser that we are using HTML5 -->
+<html lang="en">
+<!-- this is the root of the html document -->
+
+<head>
+    <!-- it is a container for metadata(data about data) which is not to be shown on the webpage but the code needs to know it -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- tells the website to be responsive -->
+    <title>My First page</title>
+    <!-- gives title to the webpage -->
+</head>
+
+<body>
+    <!-- contains all the data that need to be rendered in the webpage -->
+
+    <!-- heading tags - they should bu used for priority not for font size -->
+    <h1>hello world</h1>
+    <h2>hello world</h2>
+    <h3>hello world</h3>
+    <h4>hello world</h4>
+    <h5>hello world</h5>
+    <h6>hello world</h6>
+
+    <p>
+        This is a paragraph Lorem ipsum, dolor sit amet consectetur adipisicing
+        elit. Error deleniti, nihil, soluta animi obcaecati ducimus, iusto saepe
+        aliquam consectetur consequatur odit quos laboriosam sit exercitationem
+        inventore debitis vel ipsum velit!
+    </p>
+
+    <a href="https://google.com">Google</a>
+    <!-- Absolute Link: this are the links of the different websites -->
+
+    <br />
+    <!-- break line tag -->
+
+    <a href="2_hello.html">Link to hello.html</a>
+    <!-- Relative Link: this are the links that are relative to this(from device) -->
+
+    <br />
+
+    <img src="images.jpeg" alt="HTML_Image" height="250" width="500" />
+
+    <br />
+
+    <b> This is the bold tag </b>
+    <!--  bold tag -->
+
+    <br />
+
+    <i>this is the italic tag</i>
+    <!--  italic tag -->
+
+    <br />
+
+    <u>this is the underline tag</u>
+    <!--  underline tag -->
+
+    <br />
+
+    <big>this is the big tag</big>
+    <!--  big tag -->
+
+    <br />
+
+    <small>this is the small tag</small>
+    <!--  small tag -->
+
+    <hr />
+    <!-- this is the horizontal ruler tag - creates a horizontal line -->
+
+    <p>H <sub>2</sub> O</p>
+    <!-- this is the subscript tag -->
+
+    <p>a <sup>2</sup></p>
+    <!-- this is the superscript tag -->
+
+    <!-- "pre" tag: It is used to display text considering all the spaces, newlines -->
+    <pre>
+        Lorem 
+        ipsum                         dolor sit amet consectetur, adipisicing elit.              Natus, tempora aliquam. Saepe ut explicabo qui, ve
+        l                       nulla expedita rem tenetur reiciendis aspernatur dignissimos similique possimus tempore. Quasi ad quam a              nimi!
+    </pre>
+
+    <!-- Header tag -->
+    <header>
+        <h1>Portfolio</h1>
+        <!-- <p>
+            <a href="education.html"><big>Education</big></a>
+            <br>
+            <a href="experience.html"><big>Experience</big></a>
+            <br>
+            <a href="projects.html"><big>Projects</big></a>
+        </p> -->
+    </header>
+
+    <!-- Main tag -->
+    <main>
+        <!-- section tag -->
+        <section>Eductaion: Heritage Institute of Technology</section>
+
+        <section>Experience: Python | Django | HTML | Tkinter</section>
+
+        <section>Projects: Machine Aided Assistant</section>
+
+        <!-- article tag -->
+        <article>
+            My Story: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Ratione sed asperiores corporis! Quam repellendus ea ratione nobis sed
+            natus alias distinctio aliquam cupiditate minima voluptates nulla nisi,
+            vero maxime hic eveniet! Distinctio magnam ipsa quo pariatur architecto
+            ratione, excepturi doloribus reprehenderit est nulla qui sit dolores
+            blanditiis repellendus officia rerum.
+        </article>
+
+        <!-- aside tag: for content aside the main content(ex: ads) -->
+        <aside>this is an ad</aside>
+    </main>
+
+    <!-- In an anchor tag if "target"(an attribute of anchor tag) is set to "_main" then it will open the link in new tab keeping teh current tab intact -->
+    <a href="https://www.google.com/" target="_main">Google</a>
+
+    <br />
+
+    <!-- clickable images -->
+    <a href="https://www.google.com/" target="_main"><img src="google.jpeg" height="50" width="70" alt="google" /></a>
+
+    <!-- div tag: it is a container used for other html tags -->
+    <!-- div tag: it is a tag that contains the full block max-width -->
+    <div>
+        <p>hello world</p>
+        <p>namaste</p>
+        <p>hi</p>
+    </div>
+
+    <div>
+        <p>good bye</p>
+        <p>bye</p>
+        <p>ciao</p>
+    </div>
+
+    <!-- span tag: it is a container used for other html tags -->
+    <!-- span tag: it is an inline element that takes width per size -->
+    <span> hello world </span>
+
+    <!-- Lists in html: (i) Ordered Lists (<ol></ol>): It is used for showing an ordered lists (ii) Un-ordered Lists (<ul></ul>): It is used for showing an un-ordered lists -->
+
+    <!-- (i) un-ordered lists -->
+    <ul>
+        <!-- li stands for list item -->
+        <li>Apple</li>
+        <!-- creating a sub-list -->
+        <ul>
+            <li>color: red</li>
+            <li>season: winter</li>
+        </ul>
+
+        <li>Mango</li>
+        <ul>
+            <li>color: yellow</li>
+            <li>season: summer</li>
+        </ul>
+    </ul>
+
+    <!-- (i) ordered lists -->
+    <ol>
+        <!-- li stands for list item -->
+        <li>Apple</li>
+        <ul>
+            <li>color: red</li>
+            <li>season: winter</li>
+        </ul>
+
+        <li>Mango</li>
+        <ul>
+            <li>color: yellow</li>
+            <li>season: summer</li>
+        </ul>
+    </ol>
+
+    <!-- Tables in html -->
+    <!-- 1) <table></table> :  this is the table tag -->
+    <!-- 2) <tr></tr> :  used to display the row of a table -->
+    <!-- 3) <td></td> :  used to display data in the row of a table -->
+    <!-- 4) <th></th> :  used to display the table header -->
+    <!-- 5) <caption></caption> :  used to display caption of the table -->
+    <!-- 6) <thead></thead> :  used to the table head-->
+    <!-- 7) <tbody></tbody> :  used to the table body-->
+    <!-- 7) colspan="no.of columns to be merged" :  used to create a heading merged with "n" no.of columns-->
+
+    <table>
+        <caption>
+            Students Table
+        </caption>
+
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Roll No</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th>Ankan</th>
+                <th>2251242</th>
+            </tr>
+
+            <tr>
+                <th>Piu</th>
+                <th>2251243</th>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+    <br>
+
+
+
+    <!-- understanding colspan -->
+    <table>
+        <thead colspan="2">
+            CSE STUDENTS
+        </thead>
+
+        <tbody>
+            <tr>
+                <th>Ankan</th>
+                <th>2251242</th>
+            </tr>
+
+            <tr>
+                <th>Piu</th>
+                <th>2251243</th>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <!-- form tag: these are used to collect data from the user -->
+
+    <form action="#">
+        <!-- input tag -->
+        <input type="text" placeholder="Enter your user name....">
+        <br>
+        <input type="password" placeholder="Enter your password....">
+        <br>
+        <textarea name="feedback" id="feedback" cols="30" rows="10" placeholder="enter your feedback here...."></textarea>
+
+        <!-- radio type attribute -->
+        <label for="id1">
+            <input type="radio" value="Class X" name ="class" id = "id1">Class X
+        </label>
+    </form>
+
+
+    <!-- checkbox -->
+    <label for="id1">
+        <input type="checkbox" value="class X" name="class" id="id1">Class X
+    </label>
+
+    <br>
+
+    <!-- select tag -->
+    <select name="city" id="city">
+        <option value="Delhi">Delhi</option>
+        <option value="Kolkata">Kolkata</option>
+        <option value="Bangalore">Bangalore</option>
+    </select>
+
+    <!-- iframe tag: used to show a website inside another website -->
+    <iframe width="500" height="500" src="https://www.1377x.to/home/"></iframe>
+
+    <!-- video tag -->
+    <!-- Attributes: 1)controls 2)height 3)width 4)loop 5) autoplay 6)height 7)width -->
+    <video src="Mp & Mc Lab.mp4" controls></video>
+
+
+    <!-- Footer tag -->
+    <footer>
+        <h4>this is the footer</h4>
+    </footer>
+</body>
+
+</html>
